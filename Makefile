@@ -67,7 +67,8 @@ else
 	endif
 	ifeq ($(UNAME_S),Linux)
 	  # Replace ArduinoInstallPath with the actual path
-		TOOLROOT = ArduinoInstallPath/hardware/tools/avr
+		#TOOLROOT = ~/.arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7
+		#TOOLROOT = /usr/bin
 	endif
 endif
 
